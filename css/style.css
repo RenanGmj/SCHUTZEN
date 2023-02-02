@@ -19,7 +19,7 @@ body{
 
 }
 
-.container_lista{
+.menu{
     display: inline-flex;
     margin-left: 31%;
      
@@ -112,25 +112,42 @@ ul li:hover .text{
 
 #barras{
     height: 20px;
-    display: ;
+    display:none ;
 }
 
 
 
     
-@media screen and (max-width=1200px) {
+@media screen and (max-width: 1200px) {
     .container-grid{
         width: 1000px;
     }
 }
 
-@media screen and (max-width=1000px) {
-    #barras{
-        display: inline-block;
-    }
+@media screen and (max-width: 1000px) {
+
     .container-grid{
         width: 800px;
     }
+
+    .container_imagem{
+
+        margin-left: 100px;
+    }
+    
+
+    #barras{
+        display: inline-block;
+        margin-left: 225px;
+    }
+
+    .menu{
+    
+        display: none;
+       
+
+    }
+    
 }
 
 

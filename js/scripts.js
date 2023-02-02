@@ -1,1 +1,13 @@
-alert("chupa meu pau?");
+function mostrarmenu($event){
+
+
+  let menu = document.getElementById("menu")
+
+  if(getComputedStyle(menu).display == "none"){
+    menu.style.display = "flex"
+  }else{
+    menu.style.display = "none"
+  }
+
+  event.preventDefault()
+}
