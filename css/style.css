@@ -1,5 +1,7 @@
 body{
     background-color:  #FFC600;
+    margin: 0;
+   
 }
 
 .container-grid{
@@ -26,6 +28,7 @@ body{
 }
 a{
     color: #FFC600;
+    text-decoration: none;
 }
 .container_item{
     margin-left: 20px ;
@@ -105,9 +108,17 @@ ul li .text{
     transition-delay: 0s;
     transition: 0.5s;
 }
+
 ul li:hover .text{
     transform: scale(1);
     transition-delay: 0.25;
+}
+
+.simbolo{
+    position: relative;
+    width: 320px;
+    margin-left: 820px;
+    margin-top: 10px;
 }
 
 #barras{
@@ -115,7 +126,100 @@ ul li:hover .text{
     display:none ;
 }
 
+.plano_black{
+    position: absolute;
+    background: black;
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    
+}
 
+.carro{
+    margin-left: 115px;
+}
+
+.txt{
+    text-align: center;
+    color: #FFC600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.link{
+    font-size: 20px;
+    margin-left: 240px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.serviços{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    margin-left: 920px;
+    color: #000000;
+    margin-top: 80px;
+
+}
+
+.lista{
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 55px;
+}
+
+.serviço{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.titulo{
+display: inline;
+}
+
+.txt2{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 500px;
+    color: #000000;
+    font-size: 30px;
+}
+
+.youtube{
+    margin-top: 450px;
+    margin-left: 370px;
+}
+
+.conheça{
+    margin-left: 400px;
+    color: #000000;
+    font-size: 30px;
+}
+
+
+
+.mapa{
+    width: 800px;
+    height: 200px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+
+.rodape{
+    width: 100%;
+    background: #000000;
+    margin-top: 30px;
+}
+
+.lista_rodape{
+    display: inline-flex;
+}
+.icone_rodape{
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
 
     
 @media screen and (max-width: 1200px) {
